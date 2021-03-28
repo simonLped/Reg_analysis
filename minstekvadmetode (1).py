@@ -101,7 +101,7 @@ def plotreg(Array):
 
     
     
-#plotter minste kvadratsmetode for Array 2
+#plotter minste kvadratsmetode for Array
 plotreg(Array)
     
 sigmay = detteersigmay(Array)
@@ -114,21 +114,6 @@ delta_h = e*sigmaB(Array)
 
 
 h_estimat_øvre = h_estimat + delta_h
-
-# #finner y0, A og B
-# y0 = Areg(Array)[0]
-# A = Areg(Array)[0]
-# B = Areg(Array)[1]
-
-# #finner g i likning: B = g/k
-# k = 9.81/B
-    
-# #finner usikkerhet i y, y0 og B
-# usikkerhet = lmao(Array2)
-    
-    
-# # print(sigmaB(Array2))
-    
 
 
 
